@@ -1,0 +1,35 @@
+@import 'base';
+@import 'typography';
+
+body.mailer {
+
+  padding: 1rem;
+
+  header {
+    border-bottom: 4px solid $dark-blue;
+    margin-bottom: 1rem;
+
+    h1 {
+      @include logo;
+    }
+  }
+
+  a.button {
+    @include button;
+  }
+
+  .quote {
+    border-left: .5rem solid $grey-3;
+    padding: .3rem 1rem;
+    margin-bottom: 1rem;
+
+    p {
+      margin-bottom: .6rem;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+}

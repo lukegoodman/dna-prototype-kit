@@ -1,0 +1,23 @@
+{
+  "name": "dna-prototype-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjharrop/dna-prototype-kit.git"
+  },
+  "author": "TJH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjharrop/dna-prototype-kit/issues"
+  },
+  "homepage": "https://github.com/tjharrop/dna-prototype-kit#readme"
+}
